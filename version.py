@@ -8,16 +8,16 @@ tasks = []
 run = True
 
 while run:
-    command = input("Введите команду: ")
-if command == "help":
+  command = input("Введите команду: ")
+  if command == "help":
     print(HELP)
-elif command == "show":
+  elif command == "show":
     print(tasks)
-elif command == "add":
+  elif command == "add":
     task = input("Введите название задачи: ")
     tasks.append(task)
     print("Задача добавлена")
-else:
+  else:
     print("Неизвестная команда")
     break
 
