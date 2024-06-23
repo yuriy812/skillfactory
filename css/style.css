@@ -1,0 +1,14 @@
+.content {
+	height: 1050px;;
+	text-align: center;
+	background-color: rgb(69, 149, 229);
+}
+
+.yellow {
+	
+	color: yellow;
+}
+h1 {
+	font-size: 40px;
+	padding:50px;
+}
